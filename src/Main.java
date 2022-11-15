@@ -1,10 +1,19 @@
 public class Main {
     public static void main(String[] args)
     {
-
-
-        for (int i = 1; i < 5; i++) {
-            System.out.print(i + " " + i+1 + " " + i+2 + " ");
+        for (int j = 4; j > 0; j--)
+        {
+            for (int i = j; i > 0; i--)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
         }
+
+
+
+
+
+
     }
 }
