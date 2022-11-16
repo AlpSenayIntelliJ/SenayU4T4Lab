@@ -1,14 +1,19 @@
 public class Main {
     public static void main(String[] args)
     {
-        for (int j = 4; j > 0; j--)
+        for (int j = 0; j < 6; j++)
         {
-            for (int i = j; i > 0; i--)
+            for (int i = 0; i <= j; i++)
             {
+                System.out.print(" ");
+            }
+            for (int a = 0; a <= j; a++) {
                 System.out.print("*");
             }
             System.out.println();
         }
+
+
 
 
 
